@@ -1,0 +1,129 @@
+.back-link {
+    position: absolute;       
+    top: 10px;            
+    left: 10px;                  
+}
+.card-div {
+    border: 3px solid blue;
+    border-radius: 20px;
+    padding: 10px 10px;
+}
+.centered-div {
+    width: fit-content;        
+    margin: 0 auto;      
+    text-align: center;     
+}
+.chat-room-divs {
+    border: 2px solid blue;
+    border-radius: 5px;
+    padding: 10px 10px;
+}
+.container-div {
+    display: flex;
+    justify-content: center;
+    margin-top: 33vh;
+}
+.display_none {
+    display: none;
+}
+.dropdown-results {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-top: none;
+    max-height: 100px;
+    overflow-y: auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    padding: 5px;
+    display: none;
+}
+#flex-row-div {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+}
+#flex-row-div #flex-row-center {
+    flex: 1;
+    text-align: center;
+}
+#flex-row-input {
+    width: 100%;
+    box-sizing: border-box;
+}
+.margin-bottom {
+    margin-bottom: 10px;
+}
+.message-box {
+    border: 3px solid blue;
+    border-radius: 20px;
+    padding: 2px 15px;
+    display: inline-block;
+    max-width: 60%;
+    word-wrap: break-word;
+}
+.message-box-left {
+    background-color: #f0f0f0;
+}
+.message-box-right {
+    background-color: #d0f0ff;
+}
+#message-container {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    height: 75svh;
+    overflow-y: auto;
+}
+#message-container p {
+    margin-bottom: 2px;
+    margin-top: 2px;
+}
+#message-container .p-left {
+    align-self: flex-start;
+    text-align: left;
+    margin-left: 5px;
+}
+#message-container .p-right {
+    align-self: flex-end;
+    text-align: right;
+    margin-right: 5px;
+}
+#message-container .p-username {
+    font-size: 15px;
+}
+.message-left {
+    align-self: flex-start;
+    text-align: left;
+}
+.message-right {
+    align-self: flex-end;
+    text-align: right;
+}
+#message-textarea {
+    margin-top: 5px;
+    width: 60%;
+}
+#message-textarea-container {
+    text-align: center;
+}
+.no-margin-top {
+    margin-top: 0;
+}
+#search_wrapper {
+    width: 50%;
+    position: relative;
+    display: inline-block;
+}
+.time-span {
+    font-size: 10px;
+}
+#two-column-div {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
