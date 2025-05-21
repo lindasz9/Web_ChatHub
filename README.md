@@ -1,4 +1,15 @@
-### Setting up
+## What is this project about?
+
+A simple web-based chat application where users can create or join **public** and **private** chat rooms to communicate in real-time.
+
+## Features
+
+- User authentication (Sign up / Log in)
+- Browse and join all available chat rooms
+- Create new chat rooms (public or password-protected private rooms)
+- Real-time messaging in chat rooms
+
+## Setting up
 
 ## 1. Requirements
 - Node.js
